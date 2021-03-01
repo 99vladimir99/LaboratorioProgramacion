@@ -46,6 +46,8 @@ namespace LaboratorioProgramacionUno.VISTA
         }
 
     }
+
+}
     
 
 

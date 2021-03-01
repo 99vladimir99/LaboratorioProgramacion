@@ -31,7 +31,7 @@ namespace LaboratorioProgramacionUno.VISTA
             log.Usuario = txtUsuario.Text;
             log.Password = txtContraseña.Text;
 
-            
+            MessageBox.Show("Bienvenido");
         }
     }
 }
