@@ -32,6 +32,9 @@ namespace LaboratorioProgramacionUno.VISTA
             log.Password = txtContraseña.Text;
 
             MessageBox.Show("Bienvenido");
+
+            FrmOperaciones frmop = new FrmOperaciones();
+            frmop.Show();
         }
     }
 }

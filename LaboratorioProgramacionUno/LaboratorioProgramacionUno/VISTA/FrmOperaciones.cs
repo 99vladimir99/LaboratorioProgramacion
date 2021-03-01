@@ -33,9 +33,11 @@ namespace LaboratorioProgramacionUno.VISTA
         }
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
+        {
+            dataGridView1.Rows.Add("SI EL PRODUCTO TIENE UN PRECIO MAYOR O IGUAL 50 TENDRA UN DESCUENTO", "<=50");
+            dataGridView1.Show();
+        }  
 
         private void Operaciones_Load(object sender, EventArgs e)
         {
