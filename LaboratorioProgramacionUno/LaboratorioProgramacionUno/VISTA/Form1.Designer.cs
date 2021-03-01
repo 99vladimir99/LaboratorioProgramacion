@@ -47,7 +47,7 @@ namespace LaboratorioProgramacionUno
             // btnAdministrador
             // 
             this.btnAdministrador.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministrador.Location = new System.Drawing.Point(393, 97);
+            this.btnAdministrador.Location = new System.Drawing.Point(366, 97);
             this.btnAdministrador.Name = "btnAdministrador";
             this.btnAdministrador.Size = new System.Drawing.Size(242, 68);
             this.btnAdministrador.TabIndex = 1;
