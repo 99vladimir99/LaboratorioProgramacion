@@ -36,9 +36,9 @@ namespace LaboratorioProgramacionUno
             // btnUsuario
             // 
             this.btnUsuario.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuario.Location = new System.Drawing.Point(61, 97);
+            this.btnUsuario.Location = new System.Drawing.Point(38, 97);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(132, 68);
+            this.btnUsuario.Size = new System.Drawing.Size(242, 68);
             this.btnUsuario.TabIndex = 0;
             this.btnUsuario.Text = "USUARIO";
             this.btnUsuario.UseVisualStyleBackColor = true;
@@ -47,9 +47,9 @@ namespace LaboratorioProgramacionUno
             // btnAdministrador
             // 
             this.btnAdministrador.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdministrador.Location = new System.Drawing.Point(307, 97);
+            this.btnAdministrador.Location = new System.Drawing.Point(393, 97);
             this.btnAdministrador.Name = "btnAdministrador";
-            this.btnAdministrador.Size = new System.Drawing.Size(115, 68);
+            this.btnAdministrador.Size = new System.Drawing.Size(242, 68);
             this.btnAdministrador.TabIndex = 1;
             this.btnAdministrador.Text = "ADMINISTRADOR";
             this.btnAdministrador.UseVisualStyleBackColor = true;
@@ -59,7 +59,7 @@ namespace LaboratorioProgramacionUno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(475, 416);
+            this.ClientSize = new System.Drawing.Size(693, 256);
             this.Controls.Add(this.btnAdministrador);
             this.Controls.Add(this.btnUsuario);
             this.Name = "frmMenú";
