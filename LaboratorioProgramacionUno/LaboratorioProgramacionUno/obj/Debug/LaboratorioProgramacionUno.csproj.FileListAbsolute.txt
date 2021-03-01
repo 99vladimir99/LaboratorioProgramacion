@@ -30,3 +30,6 @@ C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUn
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.pdb
+C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.frmMenú.resources
+C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.frmLogin.resources
+C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.FrmOperaciones.resources
