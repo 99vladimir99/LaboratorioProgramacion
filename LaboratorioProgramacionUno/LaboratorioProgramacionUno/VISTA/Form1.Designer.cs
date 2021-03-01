@@ -59,10 +59,11 @@ namespace LaboratorioProgramacionUno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 254);
+            this.ClientSize = new System.Drawing.Size(475, 416);
             this.Controls.Add(this.btnAdministrador);
             this.Controls.Add(this.btnUsuario);
             this.Name = "frmMenú";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
