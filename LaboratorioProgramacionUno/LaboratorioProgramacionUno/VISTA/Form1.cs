@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LaboratorioProgramacionUno
 {
-    public partial class Form1 : Form
+    public partial class frmMenú : Form
     {
-        public Form1()
+        public frmMenú()
         {
             InitializeComponent();
 
@@ -20,6 +20,16 @@ namespace LaboratorioProgramacionUno
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
