@@ -79,11 +79,13 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             this.txtContraseña.Location = new System.Drawing.Point(213, 120);
             this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(271, 20);
             this.txtContraseña.TabIndex = 4;
             // 
             // frmLogin
             // 
+            this.AcceptButton = this.btnEntrar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(577, 260);
@@ -93,6 +95,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
             this.Name = "frmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
