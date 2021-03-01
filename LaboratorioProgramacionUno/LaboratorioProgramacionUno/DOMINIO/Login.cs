@@ -10,8 +10,10 @@ namespace LaboratorioProgramacionUno.DOMINIO
     {
         private String usuario;
         private String password;
+        private String administrador;
 
         public string Usuario { get => usuario; set => usuario = value; }
         public string Password { get => password; set => password = value; }
+        public string Administrador { get => administrador; set => administrador = value; }
     }
 }

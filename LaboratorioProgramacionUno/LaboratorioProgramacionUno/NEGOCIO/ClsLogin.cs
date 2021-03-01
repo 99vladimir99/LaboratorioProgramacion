@@ -9,9 +9,7 @@ namespace LaboratorioProgramacionUno.NEGOCIO
 {
     class ClsLogin
     {
-        internal int accceso(Login log)
-        {
-            throw new NotImplementedException();
-        }
+        
+     
     }
 }
