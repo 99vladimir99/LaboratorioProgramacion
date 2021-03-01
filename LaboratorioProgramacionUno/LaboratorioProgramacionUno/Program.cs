@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LaboratorioProgramacionUno.VISTA;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace LaboratorioProgramacionUno
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenú());
+            Application.Run(new frmLogin());
         }
     }
 }

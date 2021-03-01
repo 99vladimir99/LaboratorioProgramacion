@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LaboratorioProgramacionUno.DOMINIO;
+using LaboratorioProgramacionUno.NEGOCIO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,5 +23,17 @@ namespace LaboratorioProgramacionUno.VISTA
         {
 
         }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+
+            log.Usuario = txtUsuario.Text;
+            log.Password = txtContraseña.Text;
+
+
+        }
     }
 }
+
+  

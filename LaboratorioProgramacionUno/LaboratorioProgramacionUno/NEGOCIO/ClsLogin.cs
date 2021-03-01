@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LaboratorioProgramacionUno.DOMINIO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,9 @@ namespace LaboratorioProgramacionUno.NEGOCIO
 {
     class ClsLogin
     {
+        internal int accceso(Login log)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

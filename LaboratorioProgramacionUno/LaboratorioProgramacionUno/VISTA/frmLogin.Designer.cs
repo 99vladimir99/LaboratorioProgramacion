@@ -66,6 +66,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // txtUsuario
             // 
