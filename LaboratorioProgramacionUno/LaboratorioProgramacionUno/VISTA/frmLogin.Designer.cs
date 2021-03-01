@@ -79,7 +79,7 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             this.txtContraseña.Location = new System.Drawing.Point(213, 120);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '*';
+            this.txtContraseña.PasswordChar = '#';
             this.txtContraseña.Size = new System.Drawing.Size(271, 20);
             this.txtContraseña.TabIndex = 4;
             // 
