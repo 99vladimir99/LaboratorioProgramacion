@@ -1,7 +1,7 @@
 ﻿
 namespace LaboratorioProgramacionUno
 {
-    partial class Form1
+    partial class frmMenú
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,21 +29,51 @@ namespace LaboratorioProgramacionUno
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnUsuario = new System.Windows.Forms.Button();
+            this.btnAdministrador = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Form1
+            // btnUsuario
+            // 
+            this.btnUsuario.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuario.Location = new System.Drawing.Point(61, 97);
+            this.btnUsuario.Name = "btnUsuario";
+            this.btnUsuario.Size = new System.Drawing.Size(132, 68);
+            this.btnUsuario.TabIndex = 0;
+            this.btnUsuario.Text = "USUARIO";
+            this.btnUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnAdministrador
+            // 
+            this.btnAdministrador.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdministrador.Location = new System.Drawing.Point(307, 97);
+            this.btnAdministrador.Name = "btnAdministrador";
+            this.btnAdministrador.Size = new System.Drawing.Size(115, 68);
+            this.btnAdministrador.TabIndex = 1;
+            this.btnAdministrador.Text = "ADMINISTRADOR";
+            this.btnAdministrador.UseVisualStyleBackColor = true;
+            this.btnAdministrador.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // frmMenú
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(475, 416);
+            this.Controls.Add(this.btnAdministrador);
+            this.Controls.Add(this.btnUsuario);
+            this.Name = "frmMenú";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Menú";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnUsuario;
+        private System.Windows.Forms.Button btnAdministrador;
     }
 }
 
