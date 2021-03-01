@@ -63,6 +63,7 @@ namespace LaboratorioProgramacionUno
             this.Controls.Add(this.btnAdministrador);
             this.Controls.Add(this.btnUsuario);
             this.Name = "frmMenú";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
