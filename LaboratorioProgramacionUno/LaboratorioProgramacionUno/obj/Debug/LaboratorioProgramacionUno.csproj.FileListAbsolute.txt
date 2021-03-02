@@ -24,7 +24,6 @@ C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUn
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csprojAssemblyReference.cache
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.frmMenú.resources
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.Properties.Resources.resources
-C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.frmLogin.resources
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.GenerateResource.cache
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.csproj.CoreCompileInputs.cache
 C:\Users\Vladimir\Source\Repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.exe
@@ -34,3 +33,6 @@ C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProg
 C:\Users\kevin\Documents\GitHub\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.FrmOperaciones.resources
 C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.frmLoginAdmin.resources
 C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.frmLoginUsuario.resources
+C:\Users\Vladimir\source\repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.FrmLoginAdmin.resources
+C:\Users\Vladimir\source\repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.frmLoginUsuario.resources
+C:\Users\Vladimir\source\repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.FrmOperaciones.resources
