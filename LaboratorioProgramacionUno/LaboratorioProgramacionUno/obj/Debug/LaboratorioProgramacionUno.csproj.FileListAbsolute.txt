@@ -33,3 +33,4 @@ C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProg
 C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.frmLogin.resources
 C:\Users\dnlsn\Source\Repos\99vladimir99\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.FrmOperaciones.resources
 C:\Users\kevin\Documents\GitHub\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.FrmOperaciones.resources
+C:\Users\Vladimir\source\repos\LaboratorioProgramacion\LaboratorioProgramacionUno\LaboratorioProgramacionUno\obj\Debug\LaboratorioProgramacionUno.VISTA.FrmOperaciones.resources
