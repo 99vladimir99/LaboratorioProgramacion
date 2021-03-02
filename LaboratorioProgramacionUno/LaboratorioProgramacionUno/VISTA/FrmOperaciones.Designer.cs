@@ -92,6 +92,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblTablaDescuentos);
             this.Name = "FrmOperaciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Operaciones";
             this.Load += new System.EventHandler(this.Operaciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
