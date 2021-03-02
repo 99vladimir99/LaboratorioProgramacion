@@ -36,6 +36,11 @@ namespace LaboratorioProgramacionUno.VISTA
             FrmOperaciones frmop = new FrmOperaciones();
             frmop.Show();
         }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
