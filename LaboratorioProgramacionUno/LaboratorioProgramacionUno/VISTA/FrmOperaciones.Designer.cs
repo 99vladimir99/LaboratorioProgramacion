@@ -51,6 +51,7 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Agregar,
@@ -91,6 +92,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblTablaDescuentos);
             this.Name = "FrmOperaciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Operaciones";
             this.Load += new System.EventHandler(this.Operaciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -33,9 +33,10 @@ namespace LaboratorioProgramacionUno.VISTA
         }
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
+        {
+            
+        }  
 
         private void Operaciones_Load(object sender, EventArgs e)
         {
@@ -46,6 +47,8 @@ namespace LaboratorioProgramacionUno.VISTA
         }
 
     }
+
+}
     
 
 
