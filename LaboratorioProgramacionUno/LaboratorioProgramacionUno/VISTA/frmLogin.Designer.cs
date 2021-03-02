@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace LaboratorioProgramacionUno.VISTA
 {
     partial class frmLogin
@@ -74,6 +76,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(271, 20);
             this.txtUsuario.TabIndex = 3;
+
             // 
             // txtContraseña
             // 
