@@ -1,6 +1,4 @@
 ﻿
-using System;
-
 namespace LaboratorioProgramacionUno.VISTA
 {
     partial class frmLoginUsuario
