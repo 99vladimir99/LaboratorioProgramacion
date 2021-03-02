@@ -27,16 +27,15 @@ namespace LaboratorioProgramacionUno
 
         private void button2_Click(object sender, EventArgs e)
         {
-           frmLogin frm = new frmLogin();
-
-           frm.Show();
-           this.Hide();
+            FrmLoginAdmin frmAdmin = new FrmLoginAdmin();
+           frmAdmin.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmLogin frm = new frmLogin();
-            frm.Show();
+            frmLoginUsuario frmUser = new frmLoginUsuario();
+            frmUser.Show();
             this.Hide();
         }
     }
