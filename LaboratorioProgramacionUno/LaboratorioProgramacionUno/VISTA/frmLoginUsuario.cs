@@ -37,7 +37,7 @@ namespace LaboratorioProgramacionUno.VISTA
 
             if (evaluacion ==1) {
 
-               MessageBox.Show("Bienvenido" + txtUsuario.Text );
+               MessageBox.Show("Bienvenido " + txtUsuario.Text );
 
                 FrmOperaciones frmop = new FrmOperaciones();
                 frmop.Show();

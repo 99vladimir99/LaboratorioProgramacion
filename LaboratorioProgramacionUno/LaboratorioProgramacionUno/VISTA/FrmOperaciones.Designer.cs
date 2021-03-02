@@ -58,7 +58,7 @@ namespace LaboratorioProgramacionUno.VISTA
             this.Accion});
             this.dataGridView1.Location = new System.Drawing.Point(35, 46);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(703, 102);
+            this.dataGridView1.Size = new System.Drawing.Size(703, 269);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 

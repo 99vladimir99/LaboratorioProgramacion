@@ -39,52 +39,52 @@ namespace LaboratorioProgramacionUno.VISTA
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(98, 73);
+            this.lblUsuario.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(66, 73);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(110, 26);
+            this.lblUsuario.Size = new System.Drawing.Size(102, 24);
             this.lblUsuario.TabIndex = 0;
-            this.lblUsuario.Text = "Usuario";
+            this.lblUsuario.Text = "USUARIO";
             this.lblUsuario.Click += new System.EventHandler(this.lblUsuario_Click);
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.Location = new System.Drawing.Point(98, 133);
+            this.lblPassword.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Location = new System.Drawing.Point(66, 135);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(162, 26);
+            this.lblPassword.Size = new System.Drawing.Size(150, 24);
             this.lblPassword.TabIndex = 1;
-            this.lblPassword.Text = "Contraseña";
+            this.lblPassword.Text = "CONTRASEÑA";
             this.lblPassword.Click += new System.EventHandler(this.lblPassword_Click);
             // 
             // txtAdmin
             // 
-            this.txtAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAdmin.Location = new System.Drawing.Point(266, 73);
+            this.txtAdmin.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdmin.Location = new System.Drawing.Point(222, 73);
             this.txtAdmin.Name = "txtAdmin";
-            this.txtAdmin.Size = new System.Drawing.Size(198, 26);
+            this.txtAdmin.Size = new System.Drawing.Size(198, 32);
             this.txtAdmin.TabIndex = 2;
             this.txtAdmin.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtAdminPass
             // 
-            this.txtAdminPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAdminPass.Location = new System.Drawing.Point(266, 135);
+            this.txtAdminPass.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdminPass.Location = new System.Drawing.Point(222, 132);
             this.txtAdminPass.Name = "txtAdminPass";
             this.txtAdminPass.PasswordChar = '#';
-            this.txtAdminPass.Size = new System.Drawing.Size(198, 26);
+            this.txtAdminPass.Size = new System.Drawing.Size(198, 32);
             this.txtAdminPass.TabIndex = 3;
             this.txtAdminPass.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Font = new System.Drawing.Font("Algerian", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(253, 198);
+            this.btnEntrar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.Location = new System.Drawing.Point(222, 188);
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.Size = new System.Drawing.Size(160, 55);
             this.btnEntrar.TabIndex = 4;
-            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.UseVisualStyleBackColor = true;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
