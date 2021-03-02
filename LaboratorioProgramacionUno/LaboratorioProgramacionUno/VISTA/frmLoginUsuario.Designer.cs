@@ -1,7 +1,7 @@
 ﻿
 namespace LaboratorioProgramacionUno.VISTA
 {
-    partial class frmLogin
+    partial class frmLoginUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -39,10 +39,10 @@ namespace LaboratorioProgramacionUno.VISTA
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(39, 46);
+            this.lblUsuario.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(50, 46);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(87, 25);
+            this.lblUsuario.Size = new System.Drawing.Size(102, 24);
             this.lblUsuario.TabIndex = 0;
             this.lblUsuario.Text = "USUARIO";
             this.lblUsuario.Click += new System.EventHandler(this.label1_Click);
@@ -50,19 +50,19 @@ namespace LaboratorioProgramacionUno.VISTA
             // lblContraseña
             // 
             this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(39, 120);
+            this.lblContraseña.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseña.Location = new System.Drawing.Point(50, 120);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(128, 25);
+            this.lblContraseña.Size = new System.Drawing.Size(150, 24);
             this.lblContraseña.TabIndex = 1;
             this.lblContraseña.Text = "CONTRASEÑA";
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(244, 199);
+            this.btnEntrar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.Location = new System.Drawing.Point(206, 172);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(116, 31);
+            this.btnEntrar.Size = new System.Drawing.Size(148, 47);
             this.btnEntrar.TabIndex = 2;
             this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -70,21 +70,24 @@ namespace LaboratorioProgramacionUno.VISTA
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(213, 46);
+            this.txtUsuario.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(206, 38);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(271, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(271, 32);
             this.txtUsuario.TabIndex = 3;
             this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(213, 120);
+            this.txtContraseña.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Location = new System.Drawing.Point(206, 117);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.PasswordChar = '#';
-            this.txtContraseña.Size = new System.Drawing.Size(271, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(271, 32);
             this.txtContraseña.TabIndex = 4;
+            this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             // 
-            // frmLogin
+            // frmLoginUsuario
             // 
             this.AcceptButton = this.btnEntrar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -95,9 +98,10 @@ namespace LaboratorioProgramacionUno.VISTA
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
-            this.Name = "frmLogin";
+            this.Name = "frmLoginUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.frmLoginUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
