@@ -35,11 +35,13 @@ namespace LaboratorioProgramacionUno.VISTA
 
             int evaluacion = cls.acceso(log);
 
-            if (evaluacion ==1) {
+            if (evaluacion == 1) {
 
-               MessageBox.Show("Bienvenido " + txtUsuario.Text );
+                MessageBox.Show("Bienvenido " + txtUsuario.Text);
 
                 FrmOperaciones frmop = new FrmOperaciones();
+                frmop.nombrePersona = txtUsuario.Text;
+                frmop.Show();
                 frmop.Show();
             } else
             {

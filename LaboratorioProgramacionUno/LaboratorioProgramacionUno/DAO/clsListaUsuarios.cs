@@ -12,3 +12,4 @@ namespace LaboratorioProgramacionUno.DAO
         public String[] pass = new string[2] { "123", "123",};
     }
 }
+                                                                                                    
