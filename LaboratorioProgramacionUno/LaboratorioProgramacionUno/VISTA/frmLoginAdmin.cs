@@ -48,6 +48,7 @@ namespace LaboratorioProgramacionUno.VISTA
                 MessageBox.Show("Bienvenido " + txtAdmin.Text);
 
                 FrmOperaciones frmop = new FrmOperaciones();
+                frmop.nombrePersona = txtAdmin.Text;
                 frmop.Show();
             }
             else
